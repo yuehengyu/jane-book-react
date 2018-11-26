@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import logoPic from '../../statics/logo.png';
+import logoPic from '../../statics/logo.jpg';
 
 export const HeaderWrapper=styled.div`
     z-index:1;
@@ -30,6 +30,7 @@ export const NavItem=styled.div`
     padding:0 15px;
     font:17px;
     color:#333;
+    cursor:pointer;
     &.left{
         float:left;
     }

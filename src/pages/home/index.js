@@ -17,7 +17,7 @@ class Home extends PureComponent{
         return(
             <HomeWrapper>
                 <HomeLeft>
-                    <img alt='' className='banner-image' src="//upload.jianshu.io/admin_banners/web_images/4576/feab4469e6317fe3627d23d80fd6d0da09b556e3.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"></img>
+                    <img alt='' className='banner-image' src="https://www.telekom.com/resource/image/530616/landscape_ratio2x1/3000/1500/c3e6730fcd3f9223420a2ab53db0ede4/po/bi-blogschmuckbild-en.jpg"></img>
                     <Topic/>
                     <List/>
                 </HomeLeft>
@@ -25,7 +25,7 @@ class Home extends PureComponent{
                     <Recommend/>
                     <Writer/>
                 </HomeRight>
-                {this.props.showScroll?<BackTop onClick={this.handleScrollTop}>Back to top</BackTop>:null}
+                {this.props.showScroll?<BackTop onClick={this.handleScrollTop}>BackTop</BackTop>:null}
             </HomeWrapper>
         )
     }

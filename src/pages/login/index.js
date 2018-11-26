@@ -11,13 +11,13 @@ class Login extends PureComponent {
             return (
                 <LoginWrapper>
                     <LoginBox>
-                        <Input placeholder='账号' ref={(input) => {
+                        <Input placeholder='Account' ref={(input) => {
                             this.account = input
                         }}/>
-                        <Input placeholder='密码' type='password' ref={(input) => {
+                        <Input placeholder='Password' type='password' ref={(input) => {
                             this.password = input
                         }}/>
-                        <Button onClick={() => this.props.login(this.account, this.password)}>登录</Button>
+                        <Button onClick={() => this.props.login(this.account, this.password)}>Submit</Button>
                     </LoginBox>
                 </LoginWrapper>
             )
